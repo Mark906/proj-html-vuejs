@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+main {
+    background-image: url('images/banner_images.jpg');
+    height: 100vh;
+    background-color: #031b4e;
+    background-position: 50% 50%;
+}
+
+.main_info {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 80px);
+
+}
+
+.main_info h1 {
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+.main_info h2 {
+    text-transform: none;
+    font-size: 100px;
+    letter-spacing: 2px;
+    color: #f9245c;
+}
+
+.main_info p {
+    font-size: 14px;
+    color: rgb(255 255 255 / 50%);
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.menu a>i {
+    color: white;
+    font-size: 22px;
+}
+
+.menu a:first-child i {
+    font-size: 17px;
+    margin-right: 25px;
+}
+
+.logo {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.red {
+    background: linear-gradient(187deg, #44414c 0 50% ,#191d26 50% 100%);
+    height: 100vh;
+}
