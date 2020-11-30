@@ -49,7 +49,7 @@ nav {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
 
 }
@@ -126,12 +126,35 @@ nav {
     font-weight: bold;
 }
 
-.oblique_division {
+.oblique_division_1 {
     height: 170px;
     background: linear-gradient(184deg, #222229 0 50% ,#191d26 50% 100%);
 }
 
 .work_with_me {
+    padding-top: 35px;
     background-color: #191d26;
     height: 500px;
+}
+
+.competenze {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.competenze i {
+    padding: 15px;
+    color: rgba(72, 123, 171, 0.6);
+    border-radius: 100%;
+    border: 7px solid #f9245b;
+}
+
+.oblique_division_2 {
+    height: 170px;
+    background: linear-gradient(175deg, #191d26 0 50% ,#97c376 50% 100%);
+}
+
+.recent_work {
+    height: 200px;
+    background-color: #97c376;
 }
