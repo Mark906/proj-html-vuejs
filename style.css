@@ -83,7 +83,55 @@ nav {
     margin-left: 20px;
 }
 
-.red {
-    background: linear-gradient(187deg, #44414c 0 50% ,#191d26 50% 100%);
-    height: 100vh;
+.about {
+    background-color: #222229;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-top {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.about-top h1 {
+    font-size: 50px;
+    letter-spacing: 6px;
+}
+
+.about-top h2 {
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #ffffff80;
+}
+
+.separatore {
+    height: 3px;
+    background-color: white;
+    width: 115px;
+    margin: 0 auto;
+}
+
+.about-bottom {
+    color: rgba(72, 123, 171, 0.6);
+    margin-top: 30px;
+    display: flex;
+}
+
+.about-bottom p {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.oblique_division {
+    height: 170px;
+    background: linear-gradient(184deg, #222229 0 50% ,#191d26 50% 100%);
+}
+
+.work_with_me {
+    background-color: #191d26;
+    height: 500px;
 }
