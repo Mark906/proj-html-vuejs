@@ -195,3 +195,37 @@ nav {
     color: #f9245b;
     transition: 0.6s;
 }
+
+.division_3 {
+    height: 50px;
+    background-image: url('images/testimonial_bkgd.jpg');
+    background-position-x: center;
+}
+
+.citazioni {
+    height: 100vh;
+    background-image: url('images/testimonial_bkgd.jpg');
+    background-position-x: center;
+}
+
+.img_citazioni {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.citazione {
+    color: white;
+    text-align: center;
+}
+
+.citazione p {
+    max-width: 945px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    font-size: 17px;
+}
+
+.citazione h2 {
+    font-size: 22px;
+}
