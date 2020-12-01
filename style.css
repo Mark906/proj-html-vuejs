@@ -238,13 +238,14 @@ nav {
 
 .citazione p {
     max-width: 945px;
+    height: 40px;
     margin: 0 auto;
     padding-bottom: 25px;
     font-size: 17px;
 }
 
 .citazione h2 {
-    font-size: 22px;
+    font-size: 17px;
 }
 
 .indicatori_immagine {
@@ -259,6 +260,11 @@ nav {
 
 .indicatori_immagine i:hover {
     cursor: pointer;
+}
+
+
+.indicatori_immagine i.active {
+    color: green;
 }
 
 .global-brand {
@@ -279,7 +285,7 @@ nav {
 }
 
 .brands {
-    width: 640px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 30px;
