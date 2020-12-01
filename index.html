@@ -99,7 +99,8 @@
                 <div v-for="(work,index) in works" class="img_works">
                     <img :src="works[index]" alt="">
                 </div>
-                <button class="button_all_work" type="button" name="All works">VIEW ALL WORK</button>
+                <button v-if="add" @click="addworks()" class="button_all_work" type="button" name="All works">VIEW ALL WORK</button>
+                <button v-if="remove" @click="removeworks()" class="button_all_work" type="button" name="All works">GO BACK</button>
             </div>
             <div class="division_3">
 

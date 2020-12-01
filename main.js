@@ -2,6 +2,8 @@ var app = new Vue(
     {
         el: '#root',
         data: {
+            add: true,
+            remove: false,
             indice_citazioni: 0,
             citazioni: [
                 {
@@ -37,6 +39,21 @@ var app = new Vue(
             },
             change(index){
                 this.indice_citazioni = index;
+            },
+            addworks(){
+                this.add = false;
+                this.remove = true;
+                let n = 0;
+                let work = "images/portfolio";
+                for(let i = 0; i < 4; i++){
+                    n = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+                    this.works.push(work + n + "_featured_item-1200x960.jpg");
+                }
+            },
+            removeworks(){
+                this.remove = false;
+                this.add = true;
+                this.works.splice(6, 4);
             }
         }
     }
