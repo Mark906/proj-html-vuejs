@@ -183,11 +183,11 @@ nav {
 
 .img_works {
     width: 50%;
-    height: 665px;
 }
 
 .img_works img {
     width: 100%;
+    height: 100%;
 }
 
 .button_all_work {
