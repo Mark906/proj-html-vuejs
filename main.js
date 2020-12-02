@@ -2,6 +2,7 @@ var app = new Vue(
     {
         el: '#root',
         data: {
+            drop: false,
             add: true,
             remove: false,
             indice_citazioni: 0,
@@ -54,6 +55,12 @@ var app = new Vue(
                 this.remove = false;
                 this.add = true;
                 this.works.splice(6, 4);
+            },
+            dropdown(){
+                this.drop = true;
+            },
+            close_dropdown(){
+                this.drop = false;
             }
         }
     }

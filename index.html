@@ -19,8 +19,26 @@
                             <i class="fas fa-plus"></i>
                         </a>
                         <a href="#">
-                            <i class="fas fa-bars"></i>
+                            <i v-if="drop == false" @click="dropdown()" class="fas fa-bars"></i>
+                            <i v-if="drop" @click="close_dropdown()" class="fas fa-times"></i>
                         </a>
+                    </div>
+                    <div v-if="drop" class="hamburger-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Work</a>
+                            </li>
+                            <li>
+                                <a href="#">Articles</a>
+                            </li>
+                            <li>
+                                <a href="#" class="cta">Let's Talk</a>
+                            </li>
+                        </ul>
+
                     </div>
                 </nav>
                 <div class="main_info">
