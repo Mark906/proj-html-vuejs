@@ -146,6 +146,78 @@
                     </div>
                 </div>
             </div>
+            <div class="news">
+                <div class="news_title">
+                    <div class="container">
+                        <div class="title">
+                            <h1>Expert Design Advice</h1>
+                            <h2>TRENDING DESIGN NEWS</h2>
+                        </div>
+                        <div class="separatore">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="content_of_news">
+                    <div v-for="(item,index) in news" class="blog">
+                        <img :src="news[index]" alt="">
+                    </div>
+                    <div class="blog_description">
+                        <div class="title">
+                            <h1>Live The Design Process</h1>
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                        </div>
+                        <div class="title">
+                            <h1>Live The Design Process</h1>
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                        </div>
+                        <div class="title">
+                            <h1>Live The Design Process</h1>
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lets_talk">
+                <div class="container">
+                    <div class="lets_talk_content">
+                        <div class="title">
+                            <h1>Let's Work Together</h1>
+                            <h2>TELL ME MORE ABOUT YOUR PROJECT</h2>
+                        </div>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="separatore">
+
+                        </div>
+                        <input type="text" name="" value="" placeholder="  NAME*">
+                        <input type="text" name="" value="" placeholder="  EMAIL*">
+                        <input type="text" name="" value="" placeholder="  PHONE">
+                        <button class="button_all_work" type="button" name="All works">LET'S TALK</button>
+                    </div>
+
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                    <div class="footer_content">
+                        <div class="footer_logo">
+                            <img src="images/avada-footer-logo-66x66.png" alt="">
+                        </div>
+                        <ul>
+                            <li v-for="item in copyrights">
+                                <p>{{item}}</p>
+                            </li>
+                        </ul>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
         <script src="main.js" charset="utf-8"></script>
     </body>

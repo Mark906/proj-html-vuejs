@@ -17,7 +17,9 @@ var app = new Vue(
                 }
             ],
             brands: ["images/logo_demo_1.png", "images/logo_demo4.png", "images/Vector_Smart_Object-1.png", "images/Vector_Smart_Object-2.png", "images/Vector_Smart_Object-3.png"],
-            works: ["images/portfolio1_featured_item-1200x960.jpg","images/portfolio5_featured_item-1200x960.jpg","images/portfolio4_featured_item-1200x960.jpg","images/portfolio3_featured_item-1200x960.jpg","images/portfolio2_featured_item-1200x960.jpg","images/portfolio6_featured_item-1200x960.jpg"]
+            works: ["images/portfolio1_featured_item-1200x960.jpg","images/portfolio5_featured_item-1200x960.jpg","images/portfolio4_featured_item-1200x960.jpg","images/portfolio3_featured_item-1200x960.jpg","images/portfolio2_featured_item-1200x960.jpg","images/portfolio6_featured_item-1200x960.jpg"],
+            news: ["images/blog3-featured-600x400.jpg", "images/blog2-featured-600x400.jpg", "images/blog1-featured-600x400.jpg"],
+            copyrights: ["copyright 2012-2020", "Avada Theme by Theme Fusion", "All rights riserved", "Powered by WordPress"],
         },
         methods: {
             next_image() {
