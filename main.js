@@ -20,6 +20,9 @@ var app = new Vue(
             works: ["images/portfolio1_featured_item-1200x960.jpg","images/portfolio5_featured_item-1200x960.jpg","images/portfolio4_featured_item-1200x960.jpg","images/portfolio3_featured_item-1200x960.jpg","images/portfolio2_featured_item-1200x960.jpg","images/portfolio6_featured_item-1200x960.jpg"],
             news: ["images/blog3-featured-600x400.jpg", "images/blog2-featured-600x400.jpg", "images/blog1-featured-600x400.jpg"],
             copyrights: ["copyright 2012-2020", "Avada Theme by Theme Fusion", "All rights riserved", "Powered by WordPress"],
+            input_name:'',
+            input_email:'',
+            input_phone:''
         },
         methods: {
             next_image() {
@@ -63,6 +66,11 @@ var app = new Vue(
             },
             close_dropdown(){
                 this.drop = false;
+            },
+            loginput(){
+                console.log(this.input_name);
+                console.log(this.input_email);
+                console.log(this.input_phone);
             }
         }
     }

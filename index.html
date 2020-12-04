@@ -190,10 +190,10 @@
                         <div class="separatore">
 
                         </div>
-                        <input type="text" name="" value="" placeholder="  NAME*">
-                        <input type="text" name="" value="" placeholder="  EMAIL*">
-                        <input type="text" name="" value="" placeholder="  PHONE">
-                        <button class="button_all_work" type="button" name="All works">LET'S TALK</button>
+                        <input v-model="input_name" type="text" name="" value="" placeholder="  NAME*">
+                        <input v-model="input_email" type="text" name="" value="" placeholder="  EMAIL*">
+                        <input v-model="input_phone" type="text" name="" value="" placeholder="  PHONE">
+                        <button @click="loginput()" class="button_all_work" type="button" name="All works">LET'S TALK</button>
                     </div>
 
                 </div>
